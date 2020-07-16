@@ -1,0 +1,12 @@
+th, td {
+    border: 1px solid black;
+}
+
+table {
+    margin: 5px 0px 5px 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
