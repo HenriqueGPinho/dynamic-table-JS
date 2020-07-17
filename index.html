@@ -9,50 +9,52 @@
 
 <body>
     <div class="container">
-        <table id="tabela-principal">
-            <tr>
-                <th>#</th>
-                <th>Pago</th>
-                <th>Auto</th>
-                <th>Descrição</th>
-                <th>Venc.</th>
-                <th>Valor</th>
-            </tr>
-            <tr>
-                <td>January</td>
-                <td>$100</td>
-            </tr>
+        <div class="tabelas">
+            <table id="tabela-principal">
+                <tr>
+                    <th>#</th>
+                    <th>Pago</th>
+                    <th>Auto</th>
+                    <th>Descrição</th>
+                    <th>Venc.</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                </tr>
 
-        </table>
-        <div>
-            <table>
-                <tr>
-                    <th>Receitas</th>
-                    <th>Despesas</th>
-                </tr>
-                <tr>
-                    <td>January</td>
-                    <td>$100</td>
-                </tr>
             </table>
-            <table>
-                <tr>
-                    <th>Desp. pagas</th>
-                    <th>Desp. a pagar</th>
-                </tr>
-                <tr>
-                    <td>January</td>
-                    <td>$100</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Saldo</th>
-                </tr>
-                <tr>
-                    <td>January</td>
-                </tr>
-            </table>
+            <div>
+                <table>
+                    <tr>
+                        <th>Receitas</th>
+                        <th>Despesas</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>Desp. pagas</th>
+                        <th>Desp. a pagar</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>Saldo</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <form>
             <label for="descricao">Descrição:</label>
@@ -63,9 +65,11 @@
             <input type="checkbox" id="auto" name="auto"><br>
             <label for="valor">Valor:</label>
             <input type="text" id="valor" name="valor"><br>
-            <input type="submit" value="Adicionar">
+            <input type="button" value="Adicionar" onclick="adicionar()">
         </form>
     </div>
+
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>

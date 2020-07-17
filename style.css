@@ -6,7 +6,7 @@ table {
     margin: 5px 0px 5px 5px;
 }
 
-.container {
+.tabelas {
     display: flex;
     flex-wrap: wrap;
 }
