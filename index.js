@@ -9,6 +9,8 @@ function adicionar() {
     console.log(operação);
 }
 
+// usar document.querySelector
+
 class Operacao {
     
     constructor(descricao, venc, auto, valor) {
