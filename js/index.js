@@ -16,3 +16,4 @@ function geraTabela(conteudo) {
     console.log(tabela);
 }
 
+//tentar template string e insertAdjacentHTML
