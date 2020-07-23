@@ -31,5 +31,5 @@ function contador() {
 function automatico(valorBool) {
     
     if(valorBool) return '<input type="checkbox" name="auto" checked>'
-    else return '<input type="checkbox" name="auto"></input>'
+    else return '<input type="checkbox" name="auto">'
 }
